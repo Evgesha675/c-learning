@@ -1,5 +1,9 @@
-x = 1000
-y = 7
-while x > 0:
-    x -= y
-    print(x, '-7 = ' , x-7)
+s = [] 
+while True:
+    a = int(input()) 
+    if a == 0:  
+        break
+    if int(str(a),'7') % 10 == 4: 
+        s.append(a)
+
+print(s)
