@@ -12,5 +12,15 @@
     },
     // `sidebar` and `panel` have the same config as `fullscreen`
     "background.sidebar": {},
-    "background.panel": {}
+    "background.panel": {},
+    
+    "multiCommand.commands": [
+        {
+            "command": "multiCommand.runPythonAndFocusTerminal",
+            "sequence": [
+                "python.execInTerminal",
+                "workbench.action.terminal.focus"
+            ]
+        }
+    ]
 }
