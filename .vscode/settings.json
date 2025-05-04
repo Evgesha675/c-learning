@@ -1,6 +1,9 @@
 {
     "editor.fontFamily": "'JetBrains Mono', 'Cascadia Code', monospace",
     "editor.fontLigatures": true,
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.runInTerminal": true,
+    "code-runner.preserveFocus": false,
     "background.fullscreen": {
         // Local images can be dragged into the browser to quickly get the file protocol address from the address bar
         "images": ["file:///C:/Users/Evgesha/Downloads/image (1).png"],
@@ -13,12 +16,12 @@
     // `sidebar` and `panel` have the same config as `fullscreen`
     "background.sidebar": {},
     "background.panel": {},
-    
     "multiCommand.commands": [
         {
             "command": "multiCommand.runPythonAndFocusTerminal",
             "sequence": [
                 "python.execInTerminal",
+                { "command": "delay", "args": 200 },
                 "workbench.action.terminal.focus"
             ]
         }

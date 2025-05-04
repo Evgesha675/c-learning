@@ -1,3 +1,3 @@
-i = int(input())
-for _ in range(i+1):
-    print(f'Квадрат числа {_} равен {_**2}')
+n = int(input())
+divisors = [i for i in range(1, n + 1) if n % i == 0]
+print(sum(divisors))
