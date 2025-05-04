@@ -6,7 +6,7 @@
     "code-runner.preserveFocus": false,
     "background.fullscreen": {
         // Local images can be dragged into the browser to quickly get the file protocol address from the address bar
-        "images": ["file:///C:/Users/Evgesha/Downloads/image (1).png"],
+        "images": ["https://i.imgur.com/txt50Lw.jpg"],
         "opacity": 0.1,
         "size": "cover",
         "position": "center",
