@@ -25,3 +25,5 @@ for i in range(len(a)-1):
             lst.append(a[i]+a[i+1])
 print(len(lst), max(lst))
 
+
+ 
